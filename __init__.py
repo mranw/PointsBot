@@ -1,0 +1,6 @@
+__version__ = "1.0"
+__application_name__ = "PointsBot"
+__author__ = __maintainer__ = "mr_anw"
+__copyright__ = "Copyleft 2024"
+#__license__ = "WTFPL"
+__email__ = "andreybirula@gmail.com"
