@@ -3,10 +3,7 @@ from typing import List
 from aiogram import Router, F
 from aiogram.types import Message
 
-from config.point_triggers import (
-    PLUS,
-    MINUS
-)
+
 from filters.chat_type import ChatTypeFilter
 from filters.find_usernames import HasUsernamesFilter
 

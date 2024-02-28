@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
 
 from config_reader import config
-from handlers import commands, points, group_games, other
+from handlers import commands, points_change, group_games, other
 
 
 # Запуск бота
@@ -19,7 +19,7 @@ async def main():
     dp = Dispatcher(storage=MemoryStorage())
 
     dp.include_routers(
-        commands.router, group_games.router, other.router
+        commands.router, points_change.router, group_games.router, other.router
     )
 
     # Подгрузка списка админов
